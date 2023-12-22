@@ -33,12 +33,6 @@ function displayFavourites() {
 }
 
 
-// Automatically display favorites when the favourites.html page is loaded
-// if (window.location.pathname === '/favourites.html') {
-//     displayFavourites();
-// }
-
-
 // Function to remove a movie from the favorites list
 function removeFromFavourites(event) {
     const imdbID = event.target.dataset.imdbid;

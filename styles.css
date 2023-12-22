@@ -7,16 +7,17 @@ body {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Indie Flower', cursive;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    color: rgb(100, 2, 104);
+    color: rgb(251 250 251);
     font-weight: bolder;
-    background-color: rgb(193, 247, 148);
+    background-color: rgb(2 2 2 / 70%);
     justify-items: center;
+    text-shadow: -7px 8px 13px #000000;
 }
 
 header {
@@ -37,19 +38,24 @@ a {
     display: inline-block;
 }
 
+.imdb-title{
+    color: #fbeeee;
+    text-shadow: -7px 8px 13px #000000;
+}
+
 .quote-container {
     text-align: center;
     margin: 0px;
     padding: 20px;
-    background-color: rgb(32, 133, 201);
+    background-color: rgb(19 38 50 / 95%);
     border: 1px solid #090138;
     border-radius: 5px;
 }
 
 #quoteText {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    color: #6d0d4d;
+    color: #b0bbc9;
     margin: 10px;
 }
 
@@ -65,19 +71,21 @@ a {
 #searchInput {
     padding: 10px;
     margin-right: 10px;
-    font-weight: bolder;
-    border: 4px violet solid;
-    color: green;
+    font-weight: normal;
+    border: 3px #594868 solid;
+    color: #091003;
+    background: #ffffffa6;
 }
 
 #searchButton {
     padding: 10px 20px;
-    background-color: #6200ff;
+    background-color: #e94343;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bolder;
+    box-shadow: -4px 5px 8px 0px #252828;
 }
 
 main {
@@ -127,28 +135,29 @@ nav {
 }
 
 .container {
-    background-color: rgb(162, 251, 196);
-    color: rgb(42, 61, 165);
+    background-color: rgb(52 52 52 / 48%);
+    color: #ffffff;
     font-weight: bold;
+    text-shadow: -7px 8px 13px #000000;
 }
 
 .navbar {
-    background-color: #aad6ff;
+    background-color: #1b1c1c;
     font-size: larger;
 }
 
 .navbar-brand {
     font-size: 24px;
-    color: #54184b;
+
 }
 
 .navbar-nav .nav-link {
-    color: rgb(38, 0, 255);
+    color: rgb(177 169 225);
     font-size: 20px;
 }
 
 .navbar-nav .nav-link:hover {
-    color: rgb(250, 33, 5);
+    color: rgb(255 255 255);
 }
 
 /* Highlight active nav link */
@@ -168,19 +177,20 @@ nav {
     max-width: 200px;
     min-height: 280px; /* Adjust height for better visibility */
     margin: 5px;
-    color: #034407;
+    color: #ffffff;
     font-weight: bolder;
-    background-color: #f7c784;
+    background-color: #f5f4f438;
+    box-shadow: -4px 5px 8px 0px #727778;
     object-fit: cover;
 }
 
 #favouritesList .card {
-    background-color: #fff3cd;
+    background-color: #f5f4f438;
     width: 100%;
     max-width: 200px;
-    min-height: 280px; /* Adjust height for better visibility */
+    min-height: 280px;
     margin: 10px;
-    border: 1px solid #f0ad4e;
+    border: 1px solid #16151452;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -202,4 +212,17 @@ nav {
 
 #favouritesList .more-button {
     margin-top: 10px;
+}
+
+.btn-secondary {
+    background-color: #e5564c;
+}
+
+.card {
+    background-color: #ffffff40;
+}
+
+#movieDetails img{
+    height: 500px;
+    object-fit: contain;
 }
